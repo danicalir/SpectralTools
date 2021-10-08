@@ -26,8 +26,10 @@ function [Pm fm Pv fv] = plomb2D(M, dx, dy, pad, window)
 %
 % Dependencies: hann2d.m
 
-% Copyright (C) 2004-2010 Taylor Perron <perron@mit.edu>
+% Original Copyright (C) for fft2d  2004-2010 Taylor Perron <perron@mit.edu>
 % 
+% Updated to use plomb for nonuniformly sampled data by Danica Roth 2019
+%
 % This program is free software: you can redistribute it and/or modify it 
 % under the terms of the GNU General Public License as published by the 
 % Free Software Foundation. You should have received a copy of the GNU 
